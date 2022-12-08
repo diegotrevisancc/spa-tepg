@@ -305,8 +305,7 @@ button {
   text-align: center;
   margin-top: -33px !important;
   border: #fff solid 2px;
-  max-width: 200px;
-  padding: 15px 0 28px 0;
+  max-width: 100px;
   margin: 0 auto;
 }
 
@@ -331,7 +330,6 @@ button {
   padding-bottom: 45px;
   font-weight: bold;
   text-transform: uppercase;
-  letter-spacing: 45px;
   text-align: center;
 }
 
@@ -341,7 +339,6 @@ button {
   font-size: 56px;
   line-height: 50px;
   text-transform: uppercase;
-  letter-spacing: 45px;
 }
 
 .text-bg ul.social_team {
@@ -405,6 +402,9 @@ button {
   bottom: 10px;
 }
 
+.carousel {
+  position: unset;
+}
 /** end banner section **/
 
 .titlepage h2 {
@@ -501,6 +501,12 @@ button {
 .software {
   background-color: #240082;
   margin-top: 90px;
+  transition: 3s;
+}
+
+.software-spa {
+  background-color: black;
+  transition: 3s;
 }
 
 .software .titlepage h2 {
@@ -539,6 +545,22 @@ button {
   background-color: #fcc10e;
 }
 
+.button_spa {
+  cursor: pointer;
+}
+
+.button_spa_clicked {
+  background-color: #fcc10e;
+  color: white;
+}
+
+.spa-img {
+  transition: 3s;
+}
+
+.old-img {
+  transition: 3s;
+}
 /** end software section **/
 
 /** We Do section **/
@@ -639,9 +661,17 @@ button {
 /** Our  team section **/
 
 .team {
-  background: #37139a;
+  background: #123;
   margin-top: 90px;
   padding: 90px 0 60px 0;
+}
+
+.team .fa-linkedin {
+  color: #123;
+}
+
+.team h3 {
+  color: #123;
 }
 
 .team .titlepage {
@@ -679,7 +709,7 @@ button {
 }
 
 .team .social_box h3 {
-  color: #37139a;
+  color: #123;
   font-size: 17px;
   line-height: 20px;
   padding: 12px 0px 9px 0px;

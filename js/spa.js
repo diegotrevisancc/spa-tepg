@@ -13,7 +13,6 @@ const spaImgOldSrc = spaImg.getAttribute("src");
 
 botao.addEventListener("click", () => {
   if (page === "inicial") {
-    spaImg.classList.add(".spa-img");
     spaImg.setAttribute("src", "images/atitus.jpg");
     section.classList.add("software-spa");
     title.innerHTML = `Uma SPA funciona dessa forma (=`;
